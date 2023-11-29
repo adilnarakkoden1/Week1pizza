@@ -1,0 +1,296 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.signIn{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0px 3px lightgray;
+}
+.signIn img{
+    height: 30px;
+    
+    margin-top: 13px;
+    margin-left: 154px;
+}
+.signIn a{
+    float:right;
+    color: rgb(158, 158, 158);
+    margin-top: 21px;
+    margin-right: 160px;
+    font-family: monospace ,Arial, Helvetica, sans-serif;
+}
+.photo{
+    height: 500px;
+    
+}
+.photo img{
+    width: 100%;
+    
+}
+.txtBox{
+    margin-top: -190px;
+    /* margin-left: 450px; */
+    margin-left: 480px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #da291c;
+    cursor: pointer;
+    padding-top: 4px;
+    font-weight: bold;
+   
+
+}
+.txtBox p{
+    color: #da291c;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 83px;
+}
+
+.collection-form{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(190, 190, 190);
+    position: absolute;
+    margin-top: -184px;
+    margin-left: 679px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delivery-img{
+    margin-top: 8px;
+    width: 33px;
+    margin-left: 45px;
+}
+.Find{
+    margin-top: -129px;
+    /* margin-left: 450px; */
+    margin-left: 480px;
+    width: 449px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, .5);
+}
+.colle {
+    width: 27px;
+    margin-top: 16px;
+    margin-left: 20px;
+    filter: grayscale(100%);
+}
+.collection-form p{
+    margin-top: -27px;
+    margin-left: 58px;
+    color: rgb(83, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Find p{
+    margin-left: 22px;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 14px;
+}
+.input-loc{
+    margin-left: 20px;
+    width: 389px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 18px;
+    border-color: gray;
+    border-style: solid;
+    
+}
+.location-get::placeholder{
+
+    color: rgb(0, 140, 255);
+}
+.location-get{
+    margin-left: 20px;
+    width: 389px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-color: gray;
+    border-style: solid;
+}
+.our {
+    width: 100%;
+    height: 530px;
+    
+    margin-top: 135px;
+}
+.our hr{
+    width: 98%;
+    color:gray;
+    height: 2px;
+    border: none;
+}
+.center {
+    width: 227px;
+    /* height: 55px; */
+    background-color: white;
+    padding: 10px 14px;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 596px;
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.offers img{
+    margin-top: 36px;
+    margin-left: 20px;
+    width: 540px;
+    cursor: pointer;
+}
+.offers{
+    margin-left: 151px;
+    
+}
+.view {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(1, 119, 1);
+    color: white;
+    width: 73%;
+    height: 55px;
+    border: none;
+    margin-left: 170px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.view:hover{
+    background-color: rgb(5, 105, 5);
+    cursor: pointer;
+}
+
+.footer{
+    padding-top: 30px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.About,.Our-Policies,.Visit-Pizzaa,
+.order{
+    margin-right: 61px;
+    margin-left: 67px;
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    color: white;
+}
+
+.About p,.Our-Policies p,.Visit-Pizzaa p,
+.order p{
+    
+    font-weight: bold;
+    margin-left: 37px;
+    
+}
+
+.About ul,.Our-Policies ul,.Visit-Pizzaa ul,
+.order ul{
+    font-size: 13px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.getApp{
+    margin-top: -80px;
+    width: 100%;
+    padding-left: 38%;
+    height: 40px;
+    
+}
+
+.getApp img{
+    width: 130px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.feedback{
+    width: 50%;
+    height: 60px;
+    padding-left: 30px;
+    color: white;
+    display: flex;
+    margin-top: -80px;
+}
+
+.feedback p{
+    margin-left: 140px;
+    
+}
+
+.give{
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.give:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.feedFollo{
+    width: 100%;
+    height: 150px;
+}
+.follow{
+    float: right;
+    width: 50%;
+    color: white;
+
+    margin-top: -80px;
+    text-align: center;
+    align-items: center;
+}
+
+.feedback p{
+    font-size: 20px;
+}
+
+.follow img{
+    width: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.last{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+
+}
+.last p{
+    text-align: center;
+    font-size: 11px;
+    color: gray;
+    
+}
+.fassai img{
+    margin-top: 10px;
+    margin-left: 710px;
+    width: 75px;
+    border-radius: 4px;
+}
